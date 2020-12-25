@@ -14,7 +14,19 @@ flag=0
 usageinter = '''command to type:
 python2 http.py https://www.examplesite.com
 '''
-
+logo = """
+          ____
+         |    |
+         |    |
+        _|    |_
+       /########\
+      |# * ## * #|
+      |##########|
+       \########/
+        \#\__/#/
+         \####/   <Slowhttpreq tool>
+          ''''   <Tool created by: Themobilehacker>
+"""
 def inc_counter():
 	global request_counter
 	request_counter+=1
@@ -691,6 +703,7 @@ else:
 		sys.exit()
 	else:
 		print("Started")
+		print(logo)
 		url = sys.argv[1]
 		if url.count("/")==2:
 			url = url + "/"
