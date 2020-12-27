@@ -690,7 +690,7 @@ def httpcall(url):
 			urllib2.urlopen(request)
 	except urllib2.HTTPError, e:
 			set_flag(1)
-			print('sent')
+			print 'sent'
 			code=500
 	except urllib2.URLError, e:
 			sys.exit()
@@ -701,7 +701,6 @@ def httpcall(url):
 
 while True:
 	if len(sys.argv) < 2:
-		usage()
 		sys.exit()
 	else:
 		if sys.argv[1]=="help":
@@ -710,7 +709,7 @@ while True:
 		else:
 			os.system('clear')
 			print "-- Started --"
-			print(logo)
+			print logo
 			if len(sys.argv)== 3:
 				if sys.argv[2]=="safe":
 					set_safe()
