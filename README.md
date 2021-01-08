@@ -1,5 +1,5 @@
 # Httpslowreq
-This tool is mean't to simulate a light http load on a website for testing.
+This tool is meant to simulate a light http load on a website for testing.
 
 How to use it:
 
